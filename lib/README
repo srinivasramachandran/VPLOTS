@@ -1,0 +1,6 @@
+Reb1.list is an example peak file. The peak file has the following columns:
+1. Dummy (quartile or quintile, but not meaningful for vplots)
+2. Chromosome 
+3. Peak name
+4. Peak position
+5. Peak strand
