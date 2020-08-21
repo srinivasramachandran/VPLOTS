@@ -2,7 +2,7 @@
 This repository contains 
 1. Code to generate V-plots (in code/ ) from
     1. A list of peaks (example in lib/)
-    2. Single or a list of bed files (example: Reb1 ChEC-seq data from Zentner et al. (PMID: 26490019), in Dat/)
+    2. Single or a list of bed files (example: Reb1 ChEC-seq data from Zentner et al. (PMID: 26490019), in Dat/). The bed files should represent paired-end reads and only three columns are required: chroomosome, start of the fragment, end of the fragment.
 2. Script to generate heatmap of V-plot using gnuplot (in scripts/)
 
 The workflow is demonstrated in the directory "Test". Look at Test/commands.sh
