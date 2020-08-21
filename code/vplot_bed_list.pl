@@ -37,6 +37,7 @@ $total_count=0;
 
 open(LIST,$ARGV[1]) || die "INPUT FILE LIST $!\n";
 while(chomp($file=<LIST>)){
+	print "$file\n";
 	if($file=~/.gz$/){
   	open(FILE,"gunzip -c $file |") || die "$!\n";
 	}else{
