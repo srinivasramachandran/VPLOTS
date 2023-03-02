@@ -70,7 +70,7 @@ while(chomp($line=<FILE>)){
 }
 close(FILE);
 
-print STDERR "total count: $total_count\nnuc_count: $nuc_count";
+print STDERR "total count: $total_count\nnuc_count: $nuc_count\n";
 
 foreach $i ( keys(%count)) {
 	foreach $j (keys(%{$count{$i}}) ) {
